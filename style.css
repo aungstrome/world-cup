@@ -26,6 +26,12 @@ header {
   width: 80%;
   height: 100%;
 }
+
+header:hover .half-width img {
+  transform: scale(0.9) translate(20%, 0);
+  transition: transform 2s ease-out;
+}
+
 .paragraph {
   margin-bottom: 10%;
 }
