@@ -83,7 +83,7 @@ header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 2%;
-  margin: 2% 5% 2%;
+  margin: 3% 5% 2%;
   padding: 2%;
 }
 .player-blog-container {
