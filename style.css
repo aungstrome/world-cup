@@ -1,0 +1,181 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+h1 {
+  font-size: 50px;
+}
+header {
+  display: flex;
+  /* justify-content: space-between; */
+  background-color: #161616;
+  color: white;
+  margin: 2% 5% 2%;
+  /* padding: 2%; */
+  border-radius: 20px;
+}
+.text-container {
+  margin-bottom: 5%;
+}
+.half-width {
+  width: 50%;
+  padding: 2% 0 0 5%;
+  margin-left: 2%;
+}
+.half-width img {
+  width: 80%;
+  height: 100%;
+}
+.paragraph {
+  margin-bottom: 10%;
+}
+.live-button {
+  background-color: #dd0000;
+  text-decoration: none;
+  color: whitesmoke;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin-top: 2%;
+}
+
+.button-section {
+  width: 20%;
+  height: 50%;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-content: center;
+  background-color: black;
+  margin: 5%;
+  padding: 2%;
+  border-radius: 10px;
+}
+.button {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: 500px;
+  padding: 15px 25px;
+  background-color: whitesmoke;
+  margin: 2%;
+  border-radius: 10px;
+}
+.button:hover {
+  background-color: #dd0000;
+  color: whitesmoke;
+}
+.main-container {
+  display: flex;
+  margin-bottom: 5%;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+.flex-container {
+  display: flex;
+}
+.flex-container img {
+  margin-right: 5%;
+}
+
+.player-card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2%;
+  margin: 2% 5% 2%;
+  padding: 2%;
+}
+.player-blog-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2%;
+  /* padding: 5%; */
+}
+
+.player-card {
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  width: fit-content;
+  padding-bottom: 5%;
+}
+.player-blog {
+  border: 1px solid lightgray;
+  border-radius: 15px;
+  /* width: fit-content; */
+  padding: 5%;
+}
+.player-img {
+  width: 100%;
+  margin-bottom: 5%;
+}
+.player-card-blog {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0;
+}
+.player-card-blog img {
+  width: 30%;
+  height: 20%;
+}
+.player-card-description {
+  padding-left: 5%;
+}
+.player-blog-description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.transfer-button {
+  background-color: transparent;
+  border: 1px solid grey;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+/*------------------
+      footer styles
+   ------------------- */
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #161616;
+  color: white;
+  padding: 5%;
+  margin: 0;
+}
+.logo p {
+  font-size: 2em;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.social-icons {
+  margin-left: 14px;
+}
+footer p {
+  font-size: 18px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.flex-footer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+.flex-footer p {
+  margin-left: 2%;
+}
+.line {
+  width: 80%;
+  background-color: lightgray;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
